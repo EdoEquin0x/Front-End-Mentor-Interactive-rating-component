@@ -49,7 +49,6 @@ body {
 
 
 
-
 @media screen and (min-width: 800px) {
     body {
         background-color: hsl(216, 12%, 8%);
@@ -257,81 +256,149 @@ body {
 
 
 
-
-
-
-.button1:hover:not(.active) {
-    border-radius: 50px;
-    width: 4.5em;
-    height: 4.5em;
-    background: rgb(95, 94, 94);
-    color: hsl(0, 1%, 75%);
-    border: none;
-}
-.button2:hover:not(.active) {
-    border-radius: 50px;
-    width: 4.5em;
-    height: 4.5em;
-    background: rgb(95, 94, 94);
-    color: hsl(0, 1%, 75%);
-    border: none;
-}
-.button3:hover:not(.active) {
-    border-radius: 50px;
-    width: 4.5em;
-    height: 4.5em;
-    background: rgb(95, 94, 94);
-    color: hsl(0, 1%, 75%);
-    border: none;
-}
-.button4:hover:not(.active) {
-    border-radius: 50px;
-    width: 4.5em;
-    height: 4.5em;
-    background: rgb(95, 94, 94);
-    color: hsl(0, 1%, 75%);
-    border: none;
-}
-.button5:hover:not(.active) {
-    border-radius: 50px;
-    width: 4.5em;
-    height: 4.5em;
-    background: rgb(95, 94, 94);
-    color: hsl(0, 1%, 75%);
+@media screen and (min-width: 800px) {
     
-    border: none;
+    .button1:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: rgb(95, 94, 94);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button2:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: rgb(95, 94, 94);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button3:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: rgb(95, 94, 94);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button4:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: rgb(95, 94, 94);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button5:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: rgb(95, 94, 94);
+        color: hsl(0, 1%, 75%);
+        
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+    .buttonsubmit:hover:not(.active) {
+        border-radius: 50px;
+        width: 25em;
+        margin: 20px;
+        height: 4.5em;
+        border: none;
+        font-family: 'Overpass', sans-serif;
+        color: rgb(95, 94, 94);
+        background: hsl(0, 1%, 75%);
+        font-weight: 900;
+        letter-spacing: 5px;
+        
+
+
+
+    }
 }
 
 
 
 
 
+@media screen and (max-width: 500px) {
+
+    .button1:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: hsl(25, 97%, 53%);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button2:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: hsl(25, 97%, 53%);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button3:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: hsl(25, 97%, 53%);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button4:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: hsl(25, 97%, 53%);
+        color: hsl(0, 1%, 75%);
+        border: none;
+    }
+    .button5:hover:not(.active) {
+        border-radius: 50px;
+        width: 4.5em;
+        height: 4.5em;
+        background: hsl(25, 97%, 53%);
+        color: hsl(0, 1%, 75%);
+        
+        border: none;
+    }
 
 
 
 
-.buttonsubmit:hover:not(.active) {
-    border-radius: 50px;
-    width: 25em;
-    margin: 20px;
-    height: 4.5em;
-    border: none;
-    font-family: 'Overpass', sans-serif;
-    color: rgb(95, 94, 94);
-    background: hsl(0, 1%, 75%);
-    font-weight: 900;
-    letter-spacing: 5px;
-    
 
 
 
+
+
+    .buttonsubmit:hover:not(.active) {
+        border-radius: 50px;
+        width: 25em;
+        margin: 20px;
+        height: 4.5em;
+        border: none;
+        font-family: 'Overpass', sans-serif;
+        color: rgb(95, 94, 94);
+        background: hsl(0, 1%, 75%);
+        font-weight: 900;
+        letter-spacing: 5px;
+        
+
+
+
+    }
 }
-
-
-
-
-
-
 
 
 
