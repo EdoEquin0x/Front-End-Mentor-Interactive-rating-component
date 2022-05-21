@@ -1,0 +1,439 @@
+/* Attempting a box reset*/
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-right:0;
+}
+
+/* Responsive design*/
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: hsl(216, 12%, 8%);
+        display: grid;
+        grid-gap: 35px;
+        grid-template-columns: 0.4fr 1fr 0.2fr;
+        grid-template-rows: 0.2fr 0.6fr 0.2fr;
+        grid-template-areas:
+        ". . ."
+        ". BaseFrame ."
+        ". . .";
+        
+    }
+
+    .BaseFrameBox {
+        grid-area: BaseFrame;
+        align-self: center;
+        justify-self: center;
+       
+           
+           
+           
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: hsl(216, 12%, 8%);
+        display: grid;
+        grid-gap: 25px;
+        grid-template-columns: 0.2fr 1fr 0.2fr;
+        grid-template-rows: 0.2fr 0.6fr 0.2fr;
+        grid-template-areas:
+        ". . ."
+        ". BaseFrame ."
+        ". . .";
+        
+    }
+
+    .BaseFrameBox {
+        grid-area: BaseFrame;
+        align-self: center;
+        justify-self: center;
+       
+           
+           
+           
+   }
+
+
+}
+
+
+
+
+
+
+/* Basic Card */
+
+.BaseFrame {
+    
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 0.5fr 0.5fr 0.1fr 0.4fr 0.1fr;
+    border-radius: 15px;
+    grid-template-areas:
+    "star"
+    "text"
+    "markbuttons"
+    "."
+    "submitbuttons"
+    ".";
+    max-width: 28em;
+}
+
+.submitvalidtext {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: rgb(255, 0, 0);
+
+
+
+}
+.starcontainer {
+    grid-area: star;
+    position: relative;
+    right: -2.5em;
+    top: 2.5em;
+    image-resolution: 100;
+}
+
+.star {
+    border-radius: 50px;
+    
+    background: hsl(211, 19%, 23%);
+    padding: 20px;
+
+
+}
+
+
+.textcontainer {
+    grid-area: text;
+    position: relative;
+    max-width: 80%;
+    right: -2.5em;
+    top: -2.5em;
+}
+
+.texttitle {
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+    
+}
+
+.textmain {
+    color: hsl(217, 12%, 63%);
+    font-size: 1.2em;
+
+
+}
+
+.markbuttoncontainer {
+    grid-area: markbuttons;
+    border-radius: 20px;
+    
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    
+ 
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.button1 {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: hsl(211, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+.button2 {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: hsl(211, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+.button3 {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: hsl(211, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+.button4 {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: hsl(211, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+.button5 {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: hsl(211, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    
+    border: none;
+}
+
+.submitcontainer {
+    grid-area: submitbuttons;
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    
+    font-weight: bold;
+    justify-content: center;
+    align-items: middle;
+}
+
+.buttonsubmit {
+    border-radius: 50px;
+    width: 25em;
+    margin: 20px;
+    height: 4.5em;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    background: hsl(25, 97%, 53%);
+    font-weight: 900;
+    letter-spacing: 5px;
+    
+
+
+
+}
+
+
+
+/* Hover Versions of Basic Card */
+
+
+
+
+
+
+
+.button1:hover {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: rgb(95, 94, 94);
+    color: hsl(0, 1%, 75%);
+    border: none;
+}
+.button2:hover {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: rgb(95, 94, 94);
+    color: hsl(0, 1%, 75%);
+    border: none;
+}
+.button3:hover {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: rgb(95, 94, 94);
+    color: hsl(0, 1%, 75%);
+    border: none;
+}
+.button4:hover {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: rgb(95, 94, 94);
+    color: hsl(0, 1%, 75%);
+    border: none;
+}
+.button5:hover {
+    border-radius: 50px;
+    width: 4.5em;
+    height: 4.5em;
+    background: rgb(95, 94, 94);
+    color: hsl(0, 1%, 75%);
+    
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.buttonsubmit:hover {
+    border-radius: 50px;
+    width: 25em;
+    margin: 20px;
+    height: 4.5em;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+    color: rgb(95, 94, 94);
+    background: hsl(0, 1%, 75%);
+    font-weight: 900;
+    letter-spacing: 5px;
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Active version of Basic Card*/
+
+
+.active {
+    background: hsl(25, 97%, 53%);
+}
+
+
+
+
+/* Thank you card */
+
+
+
+
+.BaseFramety {
+    
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.1fr 0.5fr;
+    border-radius: 15px;
+    grid-gap: 35px;
+    grid-template-areas:
+    "."
+    "chart"
+    "note"
+    "textty";
+    min-width: 20em;
+    max-width: 28em;
+}
+
+
+.chartcontainer {
+    grid-area: chart;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    image-resolution: 100;
+}
+
+
+.Notecontainer {
+    grid-area: note;
+    background-color: hsl(214, 20%, 23%);
+    
+    color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    font-size: 1.1em;
+
+    text-align: center;
+
+}
+
+.textcontainerty {
+    grid-area: textty;
+
+    
+    font-family: 'Overpass', sans-serif;
+
+    line-height: 20px;
+
+}
+
+.texttitlety {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.textmainty {
+    color: hsl(217, 12%, 63%);
+    display:flex;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 5%;
+
+
+}
+
+
+
+
+
+
+/* Hidden for Basic Card */
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
