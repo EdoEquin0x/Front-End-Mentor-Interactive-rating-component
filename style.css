@@ -243,6 +243,15 @@ body {
 
 
 
+/* Active version of Basic Card*/
+
+
+.active {
+    background: hsl(25, 97%, 53%);
+}
+
+
+
 /* Hover Versions of Basic Card */
 
 
@@ -251,7 +260,7 @@ body {
 
 
 
-.button1:hover {
+.button1:hover:not(.active) {
     border-radius: 50px;
     width: 4.5em;
     height: 4.5em;
@@ -259,7 +268,7 @@ body {
     color: hsl(0, 1%, 75%);
     border: none;
 }
-.button2:hover {
+.button2:hover:not(.active) {
     border-radius: 50px;
     width: 4.5em;
     height: 4.5em;
@@ -267,7 +276,7 @@ body {
     color: hsl(0, 1%, 75%);
     border: none;
 }
-.button3:hover {
+.button3:hover:not(.active) {
     border-radius: 50px;
     width: 4.5em;
     height: 4.5em;
@@ -275,7 +284,7 @@ body {
     color: hsl(0, 1%, 75%);
     border: none;
 }
-.button4:hover {
+.button4:hover:not(.active) {
     border-radius: 50px;
     width: 4.5em;
     height: 4.5em;
@@ -283,7 +292,7 @@ body {
     color: hsl(0, 1%, 75%);
     border: none;
 }
-.button5:hover {
+.button5:hover:not(.active) {
     border-radius: 50px;
     width: 4.5em;
     height: 4.5em;
@@ -301,7 +310,7 @@ body {
 
 
 
-.buttonsubmit:hover {
+.buttonsubmit:hover:not(.active) {
     border-radius: 50px;
     width: 25em;
     margin: 20px;
@@ -323,14 +332,6 @@ body {
 
 
 
-
-
-/* Active version of Basic Card*/
-
-
-.active {
-    background: hsl(25, 97%, 53%);
-}
 
 
 
